@@ -1,4 +1,8 @@
+import 'package:festival_application/pages/home.dart';
+import 'package:festival_application/pages/listEvents.dart';
+import 'package:festival_application/pages/listUsers.dart';
 import 'package:festival_application/pages/login.dart';
+import 'package:festival_application/pages/test.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,9 +17,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Festival App',
       theme: ThemeData(
-        primarySwatch: Colors.grey,
+        primarySwatch: Colors.blueGrey,
       ),
-      home: const Login(),
+      home: const Test(),
     );
   }
 }
