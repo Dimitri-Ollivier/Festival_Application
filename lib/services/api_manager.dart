@@ -1,7 +1,6 @@
 import 'dart:convert';
 
 import 'package:festival_application/services/routes.dart';
-import 'package:festival_application/models/users.dart';
 import 'package:festival_application/models/events.dart';
 import 'package:http/http.dart' as http;
 
